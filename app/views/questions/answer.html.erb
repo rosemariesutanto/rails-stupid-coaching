@@ -1,5 +1,7 @@
-<ul>
-  <li><%= params[:question] %></li> <!-- question -->
-  <li><%= @answer %></li> <!-- question -->
-  <li><%= link_to "Ask a new question", "/ask"  %></li>
-</ul>
+<h1>Stupid Coach</h1>
+  <h3><%= params[:question] %></h3> <!-- question -->
+  <p class="user">-You</p>
+  <h3><%= @answer %></h3> <!-- question -->
+  <p class="user">-Your beloved coach</p>
+  <br>
+  <p><%= link_to "Ask a new question", "/ask"  %></p>

@@ -13,9 +13,21 @@ ul {
    &:hover {
      color: black;
    }
+   font-family: arial;
  }
 
 
  h1 {
    font-size: 50px;
+   font-family: arial;
   }
+
+  h3 {
+   font-size: 24px;
+   font-family: arial;
+  }
+
+ .user {
+  font-style: italic;
+  font-family: arial;
+ }
